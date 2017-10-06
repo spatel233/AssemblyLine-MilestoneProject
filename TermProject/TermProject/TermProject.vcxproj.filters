@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MileStone 1">
+      <UniqueIdentifier>{7e5d78c3-59ec-4bdc-b937-313b109f76b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MileStone 2">
+      <UniqueIdentifier>{e0670f51-07e2-48a6-a9b4-63a786c3a65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MileStone 3">
+      <UniqueIdentifier>{c9d46bd3-466c-45b9-9489-49df23212ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MileStone 4">
+      <UniqueIdentifier>{052ca5d3-1e71-46e5-b29d-ca064cf824b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>MileStone 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>MileStone 1</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemOrder.cpp">
+      <Filter>MileStone 2</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerOrder.cpp">
+      <Filter>MileStone 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>MileStone 2</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderManager.cpp">
+      <Filter>MileStone 3</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>MileStone 3</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>MileStone 3</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyLine.cpp">
+      <Filter>MileStone 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>MileStone 4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>MileStone 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>MileStone 1</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerOrder.h">
+      <Filter>MileStone 2</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>MileStone 2</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemOrder.h">
+      <Filter>MileStone 2</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderManager.h">
+      <Filter>MileStone 3</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>MileStone 3</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>MileStone 3</Filter>
+    </ClInclude>
+    <ClInclude Include="AssemblyLine.h">
+      <Filter>MileStone 4</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor.h">
+      <Filter>MileStone 4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="term.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="term2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ter.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

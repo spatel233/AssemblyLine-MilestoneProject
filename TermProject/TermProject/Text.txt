@@ -1,0 +1,8 @@
+	//If full display the rest of the information
+	if (full){
+		_os << std::left << std::setw(field_width) << "From"
+			<< source << std::left << std::setw(field_width)
+			<< "To" << destination << std::endl;
+		_os << std::right << std::setw(field_width * 2) << ":"
+			<< std::left << details << std::endl;
+	}
